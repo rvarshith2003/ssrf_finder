@@ -12,14 +12,14 @@ This tool is built using Python programming language.
 
 ## Installation and Usage
 
-Clone the repository:
-Navigate to the project directory.
-Install packages needed like Python, flask etc...
-Run the SSRF_finder.py file.
-Enter the URL for that specific website you want to find for when asked. URL should be in a specific format. Ex - "http://127.0.0.1:5000/?url="
-This tool will search for any SSRF vulnerabilities using the list of URL's from urls.txt file.
-If there are any vulnerabilities then the tool will show vulnerable URL's
-If not then it will show "No vulnerabilities found".
+1. Clone the repository:
+2. Navigate to the project directory.
+3. Install packages needed like Python, flask etc...
+4. Run the SSRF_finder.py file.
+5. Enter the URL for that specific website you want to find for when asked. URL should be in a specific format. Ex - "http://127.0.0.1:5000/?url="
+6. This tool will search for any SSRF vulnerabilities using the list of URL's from urls.txt file.
+7. If there are any vulnerabilities then the tool will show vulnerable URL's
+8. If not then it will show "No vulnerabilities found".
 
 ### Screenshots
 
@@ -31,11 +31,10 @@ If not then it will show "No vulnerabilities found".
 
 To test the above tool you can use Python vulnerable website from the repository. The file is named as ssrf_vuln.py.
 
-Navigate to the project directory.
-Type "python3 ssrf_vuln.py" to start the vulnerable site.
-Then the code will give an IP address, that is used in launching the site. Ex - "127.0.0.1:5000"
-Copy and paste this IP address in your browser to start the vulnerable site.
-2024-05-03 18_50_46-Kali Running - Oracle VM VirtualBox
+1. Navigate to the project directory.
+2. Type "python3 ssrf_vuln.py" to start the vulnerable site.
+3. Then the code will give an IP address, that is used in launching the site. Ex - "127.0.0.1:5000"
+4. Copy and paste this IP address in your browser to start the vulnerable site.
 
 ### Screenshot
 
